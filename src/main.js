@@ -131,5 +131,3 @@ function analyzeSalesData(data, options) {
         })
     );
 }
-
-analyzeSalesData(data, {calculateRevenue: calculateSimpleRevenue, calculateBonus: calculateBonusByProfit});
